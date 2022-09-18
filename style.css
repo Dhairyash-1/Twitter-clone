@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+body{
+    width: 100%;
+    background: black;
+
+}
+html{
+    font-size: 62.5%;
+    overflow: hidden;
+}
+.container{
+    display: flex;
+    width: 100%;
+}
+.imgsection{
+    width: 60%;
+    height: 95vh;
+    overflow: hidden;
+    position: relative;
+
+}
+.imgsection i{
+    /* z-index: 1000; */
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-50%, 0%);
+    color: rgb(238, 241, 243);
+    font-size: 400px;
+}
+.imgsection img{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.loginpage{
+    width: 50%;
+    padding: 45px 30px;
+}
+.logo{
+    padding-bottom: 60px;
+}
+.logo i{
+    display: block;
+    color: rgb(214 217 219);
+    /* width: 50px; */
+    font-size: 50px;
+
+}
+.text-box{
+    color: white;
+    margin-bottom: 20px;
+}
+.text-box h1{
+    font-size: 7rem;
+    padding-bottom: 50px;
+    font-weight: 900;
+}
+.text-box span{
+    font-size: 3.5rem;
+    font-weight: 900;
+   
+}
+
+.button-box button{
+    display: block;
+    background: #fff;
+    color: black;
+    width: 330px;
+    max-width: 400px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    
+
+}
+.button-box button img{
+    width: 20px;
+    padding-right: 5px;
+}
+ .google{
+    font-weight: 500;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+.apple{
+    font-weight: 700;
+   
+    
+
+}
+.button-box button  i{
+    display: inline-block;
+    width: 20px;
+    padding-right: 25px;
+    font-size: 20px;
+
+}
+.line{
+    width: 330px;
+    text-align: center;
+    padding: 10px;
+}
+.line h3{
+    color: white;
+}
+.signupbtn{
+    /* padding-top: 30px; */
+}
+.signupbtn input{
+    height: 40px;
+    width: 330px;
+    background: rgb(29 155 240);
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    outline: none;
+    
+}
+
+.signinbox{
+    padding-top: 40px;
+    /* padding-top: 20px; */
+}
+.signinbox h2{
+    font-size: 1.6rem;
+    color: #fff;
+    font-weight: 500;
+}
+.signinbox input{
+    background: black;
+    color: rgb(29 155 240);
+    border: .1rem solid rgb(176, 178, 180);
+    width: 330px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+
+
+@media(max-width:1100px){
+    .container{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .imgsection{
+        width: 100%;
+    }
+    .loginpage{
+        /* width: 100%; */
+       margin: auto;
+        padding: 45px 15px;
+    }
+    .text-box h1{
+        font-size: 5rem;
+    }
+}
