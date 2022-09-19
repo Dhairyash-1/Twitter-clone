@@ -71,7 +71,7 @@ html {
 }
 
 .text-box h1 {
-    font-size: 7rem;
+    font-size: 6rem;
     padding-bottom: 50px;
     font-weight: 900;
 }
@@ -187,14 +187,18 @@ html {
     }
 
     .loginpage {
-        /* width: 100%; */
-        /* margin: auto; */
-        padding: 45px 15px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 
-    .text-box h1 {
-        font-size: 5rem;
-    }
+}
 
-    .imgsection {}
+
+@media(max-width:500px) {
+    html {
+        font-size: 35%;
+    }
 }
