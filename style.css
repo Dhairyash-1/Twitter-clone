@@ -94,6 +94,7 @@ html {
     align-items: center;
     justify-content: center;
     padding: 7px;
+    outline: none;
 
 
 }
@@ -132,12 +133,10 @@ html {
 
 .line h3 {
     color: white;
+    font-size: 2rem;
 }
 
-.signupbtn {
-    /* padding-top: 30px; */
-}
-
+ 
 .signupbtn input {
     height: 40px;
     width: 330px;
@@ -185,6 +184,10 @@ html {
     .imgsection {
         width: 100%;
     }
+    .imgsection img{
+        width: 100%;
+        overflow-x: hidden;
+    }
 
     .loginpage {
         width: 100%;
@@ -198,7 +201,7 @@ html {
 
 
 @media(max-width:500px) {
-    html {
-        font-size: 35%;
-    }
+    /* html {
+        font-size: 38%;
+    } */
 }
